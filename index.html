@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> <')))))< </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="clock-box">
+        <div id="clockbox"></div>
+
+        <script type="text/javascript">
+        function GetClock(){
+        var d=new Date();
+        var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+        if(nmin<=9) nmin="0"+nmin;
+        if(nsec<=9) nsec="0"+nsec;
+        
+        var clocktext=""+nhour+":"+nmin+":"+nsec+"";
+        document.getElementById('clockbox').innerHTML=clocktext;
+        }
+        
+        GetClock();
+        setInterval(GetClock,1000);
+        </script>
+        
+
+        <div id="datebox"></div>
+
+<script type="text/javascript">
+var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+
+var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+document.getElementById('datebox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+
+
+
+      </div>
+     
+      <img src="wallpaper/1.gif" alt="image of moon">
+
+
+        <nav>
+          
+            <ul>
+              <li><a href="https://github.com/">github</a></li>
+              <li><a href="https://www.overleaf.com/">overleaf</a></li>
+              <li><a href="https://stackoverflow.com/">stack_overflow</a></li>
+			  <li><a href="https://outlook.office.com/">outlook</a></li>
+			  
+            </ul>
+        
+            <ul>
+              <li><a href="https://www.youtube.com/">youtube</a></li>
+              <li><a href="https://www.wikipedia.org/">wiki</a></li>
+              <li><a href="https://www.twitter.com/">twitter</a></li>
+              <li><a href="https://www.gmail.com/">gmail</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="https://www.uniprot.org/">uniprot</a></li>
+              <li><a href="https://www.ebi.ac.uk/metagenomics/">mgnify</a></li>
+			  <li><a href="https://www.ncbi.nlm.nih.gov/">ncbi</a></li>
+			  <li><a href="https://www.reddit.com/r/bioinformatics/">r/bioinformatics</a></li>
+            </ul>
+
+            
+
+          </nav>
+          <form action="https://duckduckgo.com/" method="GET" target="_blank">
+            <input autofocus
+                   name="q"
+                   type="search"
+                   placeholder="ddg search..."
+                   tabindex="1">
+          </form>
+		  <form action="https://scholar.google.com/" method="GET">
+		  <input autofocus
+                   name="q"
+                   type="search"
+                   placeholder="scholar search..."
+                   tabindex="1">
+    </body>
+</html>
