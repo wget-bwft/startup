@@ -26,8 +26,8 @@ img {
 }
 
 nav {
-    color: #F0EAD2;
-    background-color: #ADC178;
+    color: #768452;
+    background-color: #F0EAD2;
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-top: 0px;
@@ -52,7 +52,7 @@ ul {
 
 /* div.user {
     background-color: #ADC178;
-    color: white;
+    color: 768452;
     margin-top: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
@@ -61,7 +61,7 @@ ul {
 }
 
 div.taskbar {
-    color: #a9b1d6;
+    color: #768452;
     background-color: #ADC178;
     border: 1px solid #F0EAD2;
     padding: 3px;   
@@ -69,7 +69,7 @@ div.taskbar {
 
 .clock-box {
     position: relative;
-    color: #ADC178;
+    color: #768452;
     background-color: #F0EAD2;
     flex-direction: row;
     display: flex;
