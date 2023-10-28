@@ -5,7 +5,7 @@
 html,body {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 16px;
-    background: #181825;
+    background: #ADC178;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -19,20 +19,20 @@ img {
     height: 230px;
     width: 630px;
     object-fit: cover;
-    border: 2px solid #a9b1d6;
+    border: 2px solid #ADC178;
     /* border-bottom: none; */
     margin-bottom: -3px;
 
 }
 
 nav {
-    color: #a9b1d6;
-    background-color: #13131e;
+    color: #F0EAD2;
+    background-color: #ADC178;
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-top: 0px;
     text-align: center;
-    border: 2px solid #a9b1d6;
+    border: 2px solid #ADC178;
     border-top: none;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -62,15 +62,15 @@ ul {
 
 div.taskbar {
     color: #a9b1d6;
-    background-color: #262434;
-    border: 1px solid #a9b1d6;
+    background-color: #ADC178;
+    border: 1px solid #F0EAD2;
     padding: 3px;   
 } */
 
 .clock-box {
     position: relative;
-    color: #a9b1d6;
-    background-color: #181825;
+    color: #ADC178;
+    background-color: #F0EAD2;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -78,17 +78,17 @@ div.taskbar {
 
 a {
     text-decoration: none;
-    color: #a9b1d6;
+    color: #ADC178;
 
 }
 
 input {
-    background-color: #13131e;
+    background-color: #F0EAD2;
     font: 16px 'Ubuntu Mono', monospace;
     color: #a9b1d6;
     height: 100%;
     width: 100%;
-    border: 2px solid #a9b1d6;
+    border: 2px solid #ADC178;
     border-top: none;
     text-align: center;
     margin-top: 0px;
@@ -97,5 +97,5 @@ input {
   }
 
 input::placeholder {
-    color: #a9b1d6;
+    color: #ADC178;
 }
